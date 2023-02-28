@@ -50,6 +50,7 @@ jobs:
       with:
         target_branch: gh-pages
         build_dir: ./build
+        #ADD GIT_TOKEN in setting actions variables 
       env:
         GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
   
